@@ -1,6 +1,6 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="views/index3.html" class="brand-link">
+    <a href="main" class="brand-link">
       <img src="views/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">Main Page</span>
     </a>
@@ -13,14 +13,14 @@
           <img src="views/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">David Pérez</a>
+          <a href="info" class="d-block">David Pérez</a>
         </div>
       </div>
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="users" class="nav-link">
               <i class="nav-icon fas fa-users"></i>
               <p>
                 Users
@@ -28,7 +28,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="categories" class="nav-link">
               <i class="nav-icon fas fa-arrow-right"></i>
               <p>
                 Categories
@@ -36,16 +36,24 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="products" class="nav-link">
               <i class="nav-icon fas fa-arrow-right"></i>
               <p>
                 Products
               </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="clients" class="nav-link">
+              <i class="fas fa-user-friends nav-icon"></i>
+              <p>
+                Clients
+              </p>
+            </a>
+          </li>
           <!-- Ventas TreeView menu  -->
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="sales" class="nav-link">
               <i class="far fa-credit-card nav-icon"></i>
               <p>
                 Sales
@@ -54,19 +62,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../mailbox/mailbox.html" class="nav-link">
+                <a href="create-sales" class="nav-link">
                   <i class="fas fa-plus nav-icon"></i>
                   <p>Create Sales</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../mailbox/compose.html" class="nav-link">
+                <a href="manage-sales" class="nav-link">
                   <i class="fas fa-tasks nav-icon"></i>
                   <p>Manage Sales</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../mailbox/read-mail.html" class="nav-link">
+                <a href="view-sales" class="nav-link">
                   <i class="far fa-eye nav-icon"></i>
                   <p>View Sales</p>
                 </a>

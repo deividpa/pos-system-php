@@ -27,7 +27,22 @@
   <!-- END Left Aside -->
   <!-- Content -->
   <?php
-    include "moduls/content.php";
+    
+    if(isset($_GET['path'])) {
+      if($_GET['path']=="main" ||
+          $_GET['path']=="users" ||
+            $_GET['path']=="categories" ||
+              $_GET['path']=="products" ||
+                $_GET['path']=="clients" ||
+                  $_GET['path']=="sales" ||
+                    $_GET['path']=="create-sales" ||
+                      $_GET['path']=="manage-sales" ||
+                        $_GET['path']=="view-sales") {
+        include "moduls/".$_GET['path'].".php";
+      }
+    } else {
+      include "moduls/info.php";
+    }
   ?>
   <!-- END Content -->
   <!-- Footer -->
