@@ -15,8 +15,29 @@
 <body class="hold-transition sidebar-collapse sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
-asdasd
+  <!--  Heeader  -->
+  <?php
+    include "moduls/header.php";
+  ?>
+  <!--  END Header -->
+  <!-- Left Aside -->
+  <?php
+    include "moduls/asideleft.php";
+  ?>
+  <!-- END Left Aside -->
+  <!-- Content -->
+  <?php
+    include "moduls/content.php";
+  ?>
+  <!-- END Content -->
+  <!-- Footer -->
+  <?php
+    include "moduls/footer.php";
+  ?>
+  <!-- END Footer -->
 </div>
+
+
 <!-- ./wrapper -->
 
 <!-- jQuery -->
