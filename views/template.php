@@ -41,7 +41,7 @@
         include "moduls/".$_GET['path'].".php";
       }
     } else {
-      include "moduls/info.php";
+      //include "moduls/404.php";
     }
   ?>
   <!-- END Content -->
