@@ -37,12 +37,17 @@
                   $_GET['path']=="sales" ||
                     $_GET['path']=="create-sales" ||
                       $_GET['path']=="manage-sales" ||
-                        $_GET['path']=="view-sales") {
+                        $_GET['path']=="view-sales" || 
+                          $_GET['path']=="home") 
+      {
         include "moduls/".$_GET['path'].".php";
+      } else {
+        include "moduls/404.php";
       }
     } else {
-      //include "moduls/404.php";
+      include "moduls/home.php";
     }
+    
   ?>
   <!-- END Content -->
   <!-- Footer -->
