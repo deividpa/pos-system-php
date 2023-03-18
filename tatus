@@ -1,0 +1,77 @@
+[33mcommit f0382a118ba1567bb7d90f05431f2a7ca19e8a6a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: David Pérez <deividpa022@gmail.com>
+Date:   Sat Mar 18 12:02:30 2023 -0500
+
+    Se crea un wraper independiente para separar el contenido de usuarios que iniciaron sesión, de aquel que aún no lo han hecho
+
+[33mcommit 14b9c090410713b2a06487f9cdd3fa67feed7b43[m
+Author: David Pérez <deividpa022@gmail.com>
+Date:   Sat Mar 18 12:00:27 2023 -0500
+
+    Se crea una nueva vista de login para exigir autentificación antes de ingreso a la página.
+
+[33mcommit 067a367da516f21e04d3bbca76c67591c2f395f2[m
+Author: David Pérez <deividpa022@gmail.com>
+Date:   Sat Mar 18 11:34:02 2023 -0500
+
+    Se agrega a la lista blanca ubicada en templates, los archivos de home.php y 404.php para implementar errores de url no encontradas y redireccionar a home cuando no hay parametro GET path asignado.
+
+[33mcommit ba2dee135cbfbd1f634f71bf27ccd745d9afd26c[m
+Author: David Pérez <deividpa022@gmail.com>
+Date:   Sat Mar 18 11:17:33 2023 -0500
+
+    Se crean los archivos de controladores y modulos sobre todos los componentes que se tendrán en la lista blanca para acceder a las determinadas URLs previamente definidas en el htaccess
+
+[33mcommit 6070639baf94578ad3b01f1515005f87f286cfae[m
+Author: David Pérez <deividpa022@gmail.com>
+Date:   Sat Mar 18 11:15:23 2023 -0500
+
+    Se crean los archivos de controladores y modulos sobre todos los componentes que se tendrán en la lista blanca para acceder a las determinadas URLs previamente definidas en el htaccess
+
+[33mcommit 581523a185b73ee238a879d6e3b11063484a1523[m
+Author: David Pérez <deividpa022@gmail.com>
+Date:   Mon Mar 13 17:53:33 2023 -0500
+
+    Se agregan mas vistas para el index.php
+
+[33mcommit ad96fdea1163c07018cbce598564b04e54e5ff6e[m
+Author: David Pérez <deividpa022@gmail.com>
+Date:   Mon Mar 13 16:09:14 2023 -0500
+
+    Se realizan configuraciones sobre el .htaccess para crear ulrs amigables mediante apache
+
+[33mcommit deb51395540ff0ae9a979c43b95b3e44760800db[m
+Author: David Pérez <deividpa022@gmail.com>
+Date:   Mon Mar 13 15:39:45 2023 -0500
+
+    Se hacen últimos retoques del módulo content.php para que tenga más relación con el contenido de la página
+
+[33mcommit bac4ece907c895966965fe8096e72b43e65b21fa[m
+Author: David Pérez <deividpa022@gmail.com>
+Date:   Mon Mar 13 15:20:21 2023 -0500
+
+    Se actualiza el template, y se crea una carpeta modulos para organizar por medio de componentes la visualización del index
+
+[33mcommit f900abb6392712c11933fda32470f0cdaea36e76[m
+Author: David Pérez <deividpa022@gmail.com>
+Date:   Mon Mar 13 13:03:42 2023 -0500
+
+    Se deja la página en blanco, eliminando los componentes html dispuestos por defecto por la plantilla
+
+[33mcommit 0a9e27e6818c4d37578c5deb78c379b2538abfb2[m
+Author: David Pérez <deividpa022@gmail.com>
+Date:   Mon Mar 13 12:50:45 2023 -0500
+
+    Se crea un gitignore para no subir a github los plugins que dispone adminLTE, y se excluyen logs. Adicional, se crea lógica MVC y se hace uso de plantilla blank.html para crear página index
+
+[33mcommit 8caa2f0c96bb51fac44226b0626294ac2ac016af[m
+Author: David Pérez <deividpa022@gmail.com>
+Date:   Fri Mar 10 14:54:25 2023 -0500
+
+    Se agrega index.php para inicialización de proyecto
+
+[33mcommit bc857e69310936deabc8d898a5c8bd62f676aa19[m
+Author: David Pérez <deividpa022@gmail.com>
+Date:   Fri Mar 10 14:50:29 2023 -0500
+
+    Creación de repositorio de PHP utilizando AdminLTE y usando PHP, mysql, MVC, etc

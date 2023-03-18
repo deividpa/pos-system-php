@@ -10,7 +10,7 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="views/plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="views/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="views/dist/css/adminlte.css">
 </head>
 <body class="hold-transition sidebar-collapse sidebar-mini">
 <!-- Site wrapper -->
