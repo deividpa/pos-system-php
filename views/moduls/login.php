@@ -8,7 +8,7 @@
       <div class="card-body login-card-body">
         <p class="login-box-msg">Iniciar Sesión</p>
 
-        <form action="models/home.php" method="post">
+        <form method="post">
           <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Usuario" name="userInserted">
             <div class="input-group-append">
