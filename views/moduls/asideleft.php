@@ -13,7 +13,7 @@
           <img src="views/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="info" class="d-block">David Pérez</a>
+          <a href="main" class="d-block">David Pérez</a>
         </div>
       </div>
       <!-- Sidebar Menu -->
