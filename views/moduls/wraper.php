@@ -1,12 +1,12 @@
 <div class="wrapper">
   <!--  Heeader  -->
   <?php
-    include "moduls/header.php";
+    include "header.php";
   ?>
   <!--  END Header -->
   <!-- Left Aside -->
   <?php
-    include "moduls/asideleft.php";
+    include "asideleft.php";
   ?>
   <!-- END Left Aside -->
   <!-- Content -->
@@ -24,19 +24,19 @@
                         $_GET['path']=="view-sales" || 
                           $_GET['path']=="home") 
       {
-        include "moduls/".$_GET['path'].".php";
+        include $_GET['path'].".php";
       } else {
-        include "moduls/404.php";
+        include "404.php";
       }
     } else {
-      include "moduls/home.php";
+      include "home.php";
     }
     
   ?>
   <!-- END Content -->
   <!-- Footer -->
   <?php
-    include "moduls/footer.php";
+    include "footer.php";
   ?>
   <!-- END Footer -->
 </div>

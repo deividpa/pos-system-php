@@ -1,3 +1,7 @@
+<?php
+// para manejar la sesión de logueo
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

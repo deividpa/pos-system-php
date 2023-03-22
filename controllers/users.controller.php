@@ -15,15 +15,29 @@ class UsersController {
         $value = $_POST['userInserted'];
 
         $response = ModelUsers::MdlShowUsers($table, $item, $value);
-
-        if($response['username'] == $_POST['userInserted'] && $response['password'] == $_POST['passInserted']) 
-        {
-          
+        //Validate if there is a data response from the db with those credentials
+        if(is_array($response)) {
+          if($response['username'] == $_POST['userInserted'] && $response['password'] == $_POST['passInserted']) 
+          {
+            $_SESSION['startSession'] = "ok";
+            echo "Sesión creada para usuario: " . $response['username'];
+            echo "<script>
+                    window.location = 'main'
+                  </script>";
+          } else {
+            echo '<div class="alert alert-warning mt-3">No existe ningún usuario con estas credenciales.</div>';
+          }
+        } else {
+          echo "<div class='alert alert-warning mt-3'>No existe ningún usuario con estas credenciales.</div>";
         }
+
+        
       } else {
-        echo "Datos ingresados son inválidos";
+        //preg_match incorrect
+        echo "El usuario y la contraseña no deben contener carácteres especiales";
       }
     } else {
+      //isset is not true
       echo "Por favor ingrese el usuario y la contraseña";
     }
   }
