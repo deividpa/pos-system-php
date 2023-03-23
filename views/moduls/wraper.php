@@ -22,7 +22,8 @@
                     $_GET['path']=="create-sales" ||
                       $_GET['path']=="manage-sales" ||
                         $_GET['path']=="view-sales" || 
-                          $_GET['path']=="home") 
+                          $_GET['path']=="home" ||
+                            $_GET['path']=="sign-out") 
       {
         include $_GET['path'].".php";
       } else {
